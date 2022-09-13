@@ -1,0 +1,91 @@
+body{
+    text-align:center;
+}
+
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+.menu{
+    position:fixed;
+    top:0px;
+    margin-top:0px;
+    z-index:10;
+    cursor:pointer;
+    width:100%;
+    margin-top:10px;
+}
+
+.links{
+    font-size:20px;
+    font-family:fantasy;       
+    padding-right:25px;
+    padding-left:33px;
+    display:inline;
+    width:100%;
+    height:800px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#home{
+    background:mediumpurple;
+}
+
+#teams{
+    background:lightgoldenrodyellow;
+}
+
+#arts{
+    background:lightblue;
+}
+
+#athletics{
+    background:lightgreen;
+}
+
+#academics{
+    background:lightgoldenrodyellow;
+}
+
+#updates{
+    background:lightcyan;
+}
+
+#awards{
+    background:lightsalmon;
+}
+
+#contact{
+    background:lightseagreen;
+}
+
+.athletics
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.arts
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.academic
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
